@@ -1,4 +1,13 @@
 html { margin: 1em auto; max-width: 42em; font-family: sans-serif }
+html
+{
+	/* color: #280b22; */
+	color: #ede;
+	background: #280b22;
+	font-family: sans-serif;
+	line-height: 1.4;
+	text-shadow: 1px 1px #000;
+}
 h1 { font-size: 1.8em; }
 h2 { font-size: 1.6em; }
 h3 { font-size: 1.05em; }
@@ -10,7 +19,24 @@ pre { background-color: #eeeeee; border: 2px solid; padding:
 	6px; overflow-x: auto; }
 pre code { padding: 0px; }
 code { background-color: #eeeeee; padding: 2px; }
-#blob { background: #ffffff; border: none; }
+html
+{
+	/* color: #280b22; */
+	color: #ede;
+	background: #280b22;
+	font-family: sans-serif;
+	line-height: 1.4;
+	text-shadow: 1px 1px #000;
+}
+hr {
+	color: #666;
+}
+
+code,pre, #TOC, a:hover, img
+{
+	background: #4e324e;
+	border-radius:0.25em;
+}
 
 /* Tables */
 /*
@@ -24,3 +50,7 @@ table tr td a img { min-width: 33px; }
 
 
 
+a
+{
+	color: #fcc;
+}
